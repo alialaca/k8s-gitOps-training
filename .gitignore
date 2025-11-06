@@ -1,0 +1,7 @@
+.idea
+.claude
+README.md
+**/target
+.env*
+.log*
+kubeconfig

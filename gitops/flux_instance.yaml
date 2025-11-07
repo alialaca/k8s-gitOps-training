@@ -1,0 +1,26 @@
+apiVersion: fluxcd.controlplane.io/v1
+kind: FluxInstance
+metadata:
+  name: flux
+  namespace: flux-system
+spec:
+  cluster:
+    networkPolicy: true
+    type: kubernetes
+  components:
+    - source-controller
+    - notification-controller
+    - image-reflector-controller
+    - image-automation-controller
+    - kustomize-controller
+    - helm-controller
+  distribution:
+    registry: ghcr.io/fluxcd
+    version: 2.7.x
+  sync:
+    interval: 5m
+    kind: GitRepository
+    path: gitops/clusters/production
+    ref: refs/heads/main
+    url: https://github.com/alialaca/k8s-gitOps-training
+    pullSecret: flux-git-credentials

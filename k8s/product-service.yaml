@@ -32,7 +32,7 @@ spec:
               value: password
             - name: DATABASE_NAME
               value: productdb
-          image: ghcr.io/alialaca/product-service:1.0.0-rc.1
+          image: ghcr.io/alialaca/product-service:v1.0.0-rc.2
           imagePullPolicy: IfNotPresent
           name: product-service
           resources:

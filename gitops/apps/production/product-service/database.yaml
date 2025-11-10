@@ -5,4 +5,5 @@ metadata:
   namespace: product-system
 spec:
   instances: 3
-  storage: 1Gi
+  storage:
+    size: 1Gi

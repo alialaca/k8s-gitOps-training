@@ -4,6 +4,7 @@ metadata:
   name: cnpg-operator
   namespace: cnpg-system
 spec:
+  interval: 5m
   targetNamespace: cnpg-system
   releaseName: cnpg-operator
   chart:

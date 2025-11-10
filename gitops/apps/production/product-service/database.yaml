@@ -1,0 +1,8 @@
+apiVersion: postgresql.cnpg.io/v1
+kind: Cluster
+metadata:
+  name: product
+  namespace: product-system
+spec:
+  instances: 3
+  storage: 1Gi

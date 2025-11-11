@@ -7,3 +7,4 @@ resources:
   - service.yaml
   - image-update-autumation.yaml
   - image-policy.yaml
+  - image-repository.yaml

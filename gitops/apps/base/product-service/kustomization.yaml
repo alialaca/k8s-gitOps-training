@@ -5,4 +5,5 @@ resources:
   - database.yaml
   - deployment.yaml
   - service.yaml
-  - image-update-otumation.yaml
+  - image-update-autumation.yaml
+  - image-policy.yaml

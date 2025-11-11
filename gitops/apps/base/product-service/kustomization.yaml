@@ -5,6 +5,6 @@ resources:
   - database.yaml
   - deployment.yaml
   - service.yaml
-  - image-update-autumation.yaml
+  - image-update-automation.yaml
   - image-policy.yaml
   - image-repository.yaml

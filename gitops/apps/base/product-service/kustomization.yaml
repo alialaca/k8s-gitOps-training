@@ -8,3 +8,7 @@ resources:
   - image-update-automation.yaml
   - image-policy.yaml
   - image-repository.yaml
+images:
+  - name: ghcr.io/alialaca/product-service
+    newName: ghcr.io/alialaca/product-service # {"$imagepolicy": "flux-system:product-service:name"}
+    newTag: 1.0.1 # {"$imagepolicy": "flux-system:product-service:tag"}

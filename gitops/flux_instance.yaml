@@ -23,4 +23,4 @@ spec:
     path: gitops/clusters/production
     ref: refs/heads/main
     url: https://github.com/alialaca/k8s-gitOps-training
-#    pullSecret: flux-git-credentials
+    pullSecret: ghcr-pull-secret
